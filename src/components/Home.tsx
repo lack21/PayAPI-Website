@@ -26,7 +26,7 @@ function Home() {
               name="email"
               placeholder="Enter email address"
             />
-            <Link to="/payapi-website" className="btn">
+            <Link to="/PayAPI-Website" className="btn">
               Schedule a Demo
             </Link>
           </form>

@@ -47,7 +47,7 @@ function Pricing() {
                 Income
               </li>
             </ul>
-            <Link to="/payapi-website/contact" className="pricing-btn">
+            <Link to="/PayAPI-Website/contact" className="pricing-btn">
               Request Access
             </Link>
           </div>
@@ -88,7 +88,7 @@ function Pricing() {
                 Income
               </li>
             </ul>
-            <Link to="/payapi-website/contact" className="pricing-btn">
+            <Link to="/PayAPI-Website/contact" className="pricing-btn">
               Request Access
             </Link>
           </div>
@@ -129,7 +129,7 @@ function Pricing() {
                 Income
               </li>
             </ul>
-            <Link to="/payapi-website/contact" className="pricing-btn">
+            <Link to="/PayAPI-Website/contact" className="pricing-btn">
               Request Access
             </Link>
           </div>

@@ -19,7 +19,7 @@ function Layout() {
   return (
     <>
       <nav className="nav-bar">
-        <Link to="/payapi-website">
+        <Link to="/PayAPI-Website">
           <img
             src={isLinksActive ? lightLogoImage : logoImage}
             alt="logo"
@@ -54,14 +54,14 @@ function Layout() {
         <h2 className="heading">Ready to start?</h2>
         <form className="form">
           <input type="email" name="email" placeholder="Enter email address" />
-          <Link to="/payapi-website" className="btn">
+          <Link to="/PayAPI-Website" className="btn">
             Schedule a Demo
           </Link>
         </form>
       </section>
 
       <footer className="footer">
-        <Link to="/payapi-website">
+        <Link to="/PayAPI-Website">
           <img src={lightLogoImage} alt="logo" className="logo" />
         </Link>
         <div className="footer-links">

@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="payapi-website" element={<Layout />}>
+        <Route path="PayAPI-Website" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="pricing" element={<Pricing />} />
           <Route path="about" element={<About />} />

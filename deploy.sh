@@ -11,6 +11,6 @@ git checkout -B main
 git add -A
 git commit -m "deploy"
 
-git push -f https://github.com/lack21/payapi-website.git main:gh-pages
+git push -f https://github.com/lack21/PayAPI-Website.git main:gh-pages
 
 cd -

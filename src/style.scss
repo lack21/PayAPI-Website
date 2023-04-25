@@ -721,13 +721,22 @@ h4 {
 
     img {
       width: 100%;
-      margin-left: 2.5rem;
+      margin-left: 2rem;
+    }
+
+    &.second::after {
+      display: none;
     }
   }
 
-  .header .content .title {
-    font-size: 4rem;
-    line-height: 4.25rem;
+  .header {
+    &::after {
+      right: 0;
+    }
+    .content .title {
+      font-size: 4rem;
+      line-height: 4.25rem;
+    }
   }
 
   .offers {
@@ -832,6 +841,10 @@ h4 {
 
   .second-banner {
     height: 250px;
+  }
+
+  .sub-circle {
+    right: 5%;
   }
 }
 

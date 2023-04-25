@@ -668,6 +668,11 @@ h4 {
       display: none;
     }
 
+    .logo.active {
+      filter: brightness(0) invert(1);
+      -webkit-filter: brightness(0) invert(1);
+    }
+
     .links {
       position: absolute;
       width: 100%;

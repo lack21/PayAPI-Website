@@ -12,8 +12,7 @@ function Layout() {
   const [isLinksActive, setIsLinksActive] = useState(false);
 
   function ToggleLinks() {
-    setIsLinksActive((isLinksActive) => !isLinksActive);
-    console.log(isLinksActive);
+    setIsLinksActive(!isLinksActive);
   }
 
   return (
@@ -21,7 +20,7 @@ function Layout() {
       <nav className="nav-bar">
         <Link to="/PayAPI-Website">
           <img
-            src={isLinksActive ? lightLogoImage : logoImage}
+            src={logoImage}
             alt="logo"
             className={`logo ${isLinksActive ? "active" : ""}`}
           />
